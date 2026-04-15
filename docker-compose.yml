@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  cipher-cracker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      platforms:
+        - linux/amd64
+        - linux/arm64
+    container_name: cipher-cracker
+    restart: "no"
+    # 程序运行完成后自动退出
+    # 查看输出: docker logs cipher-cracker

@@ -1,0 +1,29 @@
+# 编译产物
+*.o
+*.obj
+*.exe
+*.out
+cipher_cracker
+cipher_cracker_test
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Docker
+.docker/
+
+# 日志
+*.log
+
+# 临时文件
+tmp/
+temp/
